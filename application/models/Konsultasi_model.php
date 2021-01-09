@@ -177,6 +177,8 @@ class Konsultasi_model extends CI_Model
             //     $this->db->where('status >', KONFIRMASI_SELESAI);
         } elseif ($to == "confir") {
             $this->db->where('status', STATUS_MASUK);
+        } elseif ($to == "proses-foropd") {
+            $this->db->where('is_confirmed', BELUM_KONFIRMASI);
         } else {
             $usr_ = $this->session->userdata("user_id");
 
@@ -319,6 +321,8 @@ class Konsultasi_model extends CI_Model
             //     $this->db->where('status >', KONFIRMASI_SELESAI);
         } elseif ($to == "confir") {
             $this->db->where('status', STATUS_MASUK);
+        } elseif ($to == "proses-foropd") {
+            $this->db->where('is_confirmed', BELUM_KONFIRMASI);
         } else {
             $usr_ = $this->session->userdata("user_id");
 
@@ -326,7 +330,6 @@ class Konsultasi_model extends CI_Model
                 $this->db->where("id_to", 4);
             }
         }
-
 
         // if ($deleted != "all") {
         //     if ($deleted == 1) {
