@@ -1,0 +1,2813 @@
+/*
+=================================================
+				UP FROM 1200PX
+=================================================
+*/
+@media (max-width: 1366px) {
+    .city_top_wrap .slick-slider {
+        overflow: hidden !important;
+        height: 28px;
+        /* width: 70%; */
+
+        width: 67%;
+    }
+
+    .city_top_social ul li {
+        margin-right: 7px;
+    }
+
+    .navigation ul li {
+        margin-right: 20px;
+    }
+
+    .banner_text {
+        right: 100px;
+    }
+
+    .city_banner_services {
+        padding: 35px 30px;
+    }
+
+    .city_service_text {
+        padding: 0px 22px;
+    }
+
+    .city_service_text span {
+        margin-right: 10px;
+    }
+
+    .city_jobs_item.pull-right .ciy_jobs_caption {
+        width: 78%;
+    }
+
+    .city_jobs_item {
+        padding: 45px 14px;
+    }
+
+    .city_jobs_item.pull-right span {
+        float: right;
+    }
+
+    .city_project_text h3 {
+        font-size: 24px;
+    }
+
+    .city_top_search {
+        width: 88%;
+    }
+
+    /*business page start*/
+    .city_visit_text {
+        padding: 29px 0px 30px 50px;
+    }
+
+    .city_visit_text.text2 {
+        padding: 29px 50px 30px 0px;
+    }
+}
+
+/*
+=================================================
+			FROM 992PX TO 1199PX
+=================================================
+*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .city_top_wrap {
+        padding: 25px 10px;
+    }
+
+    .city_top_wrap .slick-slider {
+        width: 62%;
+    }
+
+    .city_top_news span {
+        margin-right: 24px;
+    }
+
+    .city_top_logo {
+        width: 20%;
+        margin-right: 30px;
+    }
+
+    .city_top_news {
+        float: left;
+        width: 58%;
+    }
+
+    .city_top_social ul li {
+        margin-right: 5px;
+    }
+
+    .city_top_social ul li:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .city_top_social ul li:last-child {
+        display: none;
+    }
+
+    .city_top_navigation.sticky,
+    .city_top_navigation {
+        padding: 15px 10px 15px;
+    }
+
+    .navigation ul li {
+        margin-right: 17px;
+    }
+
+    .city_top_navigation:before {
+        width: 26%;
+    }
+
+    .city_top_search {
+        width: 84%;
+    }
+
+    .medium_text {
+        display: none;
+    }
+
+    .banner_btn {
+        margin-bottom: 20px;
+    }
+
+    .banner_text {
+        padding: 32px 30px 40px;
+        margin-top: -170px;
+    }
+
+    .city_service_text {
+        text-align: center;
+    }
+
+    .city_service_text span {
+        float: none;
+    }
+
+    .city_about_text p {
+        display: none;
+    }
+
+    .bg_white {
+        width: 100%;
+
+        padding: 103px 15px 65px;
+        /* padding: 50px 35px 20px; */
+    }
+
+    .width_control {
+        width: 50%;
+    }
+
+    .city_office_list {
+        padding: 45px 40px;
+    }
+
+    .city_office_logo a {
+        left: -145px;
+        width: 243px;
+        top: 67px;
+    }
+
+    .city_triagle span {
+        width: 91px;
+    }
+
+    .city_triagle {
+        width: 154px;
+        top: 4px;
+    }
+
+    .city_service_text h5 {
+        float: none;
+        font-size: 15px;
+    }
+
+    .center_text {
+        padding: 30px 0px;
+    }
+
+    .city_office_text.pull_right {
+        position: relative;
+        z-index: 2;
+    }
+
+    .city_date_text a,
+    .city_blog_fig.position .social_icon {
+        display: none;
+    }
+
+    .city_blog_text p {
+        display: none;
+        height: 68px;
+        overflow: hidden;
+    }
+
+    .city_blog_fig.position {
+        margin-top: -415px;
+    }
+
+    .border:after,
+    .border:before {
+        width: 210px;
+    }
+
+    .city_jobs_item.pull-right .ciy_jobs_caption {
+        padding: 0px 20px 0px 0px;
+        width: 69%;
+    }
+
+    .ciy_jobs_caption h2 {
+        font-size: 24px;
+    }
+
+    .city_job_text {
+        left: 50px;
+    }
+
+    .city_project_text {
+        margin-top: -70px;
+    }
+
+    .city_project_fig:hover .city_project_text {
+        margin-top: -70px;
+    }
+
+    .city_project_text h3 {
+        font-size: 24px;
+        overflow: hidden;
+        height: 31px;
+    }
+
+    .city_project_wrap {
+        padding: 100px 20px 84px;
+    }
+
+    .bg_white.width {
+        width: 100%;
+    }
+
+    .custom_size {
+        font-size: 18px;
+        padding: 7px 0px;
+        margin: 0px;
+    }
+
+    .city_event_history {
+        margin-bottom: 6px;
+    }
+
+    .city_event_text>p {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .city_client_row .bx-wrapper .bx-prev {
+        right: -80px;
+    }
+
+    .city_client_row .bx-wrapper .bx-next {
+        right: -195px;
+    }
+
+    .city_news_list_text {
+        padding: 14px 0px 10px 20px;
+    }
+
+    .city_news_list_text h5 {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .city_news_meta li {
+        padding: 0px 6px;
+    }
+
+    .city_document_list ul li a,
+    .city_news_meta li a {
+        font-size: 12px;
+    }
+
+    .city_document_list ul li a i {
+        margin-right: 9px;
+    }
+
+    .city_news_text h2 {
+        font-size: 35px;
+    }
+
+    .city_news_row>ul>li {
+        margin-bottom: 35px;
+    }
+
+    .widget_title {
+        font-size: 23px;
+    }
+
+    .city_department_fig {
+        overflow: hidden;
+    }
+
+    .city_department_text {
+        padding: 28px 0px 27px 20px;
+    }
+
+    /*service page start*/
+    .city_service2_caption h4 {
+        font-size: 20px;
+    }
+
+    .city_service2_caption {
+        padding: 6px 0px 0px 16px;
+    }
+
+    .city_award_text h3 {
+        font-size: 24px;
+    }
+
+    .sab_banner {
+        padding: 90px 0px 115px;
+    }
+
+    .social_icon li {
+        margin-right: 12px;
+    }
+
+    /*service 02 page start*/
+    .city_health_list h5 {
+        font-size: 19px;
+    }
+
+    .special_service_text {
+        width: 100%;
+        left: 0px;
+    }
+
+    /* service detail page start*/
+    .city_health_fig:after {
+        border: none;
+    }
+
+    .city_health_fig {
+        margin-top: 40px;
+    }
+
+    .city_service_tabs ul li a {
+        padding: 15px 12px;
+        font-size: 13px;
+    }
+
+    .city_health_wrap {
+        padding: 90px 0px;
+    }
+
+    .city_department2_text {
+        padding: 0px 0px 18px 30px;
+    }
+
+    .city_department2_text.text2 {
+        padding: 0px 30px 18px 0px;
+    }
+
+    .city_notice h4,
+    .city_side_info h4 {
+        font-size: 24px;
+    }
+
+    .sab_banner_text h2 {
+        font-size: 56px;
+    }
+
+    /*service detail 02 page start*/
+    .city_emergency_slide_text h5 {
+        font-size: 17px;
+    }
+
+    /*blog page start*/
+    .city_blog2_list .city_meta_list li {
+        padding: 0px 12px;
+    }
+
+    /*blog detail page start*/
+    .city_blog2_fig.fig2 .city_blog2_text h4 {
+        font-size: 20px;
+    }
+
+    .detail_process_list {
+        display: none;
+    }
+
+    .blog_post_slide_text {
+        padding: 26px 5px;
+    }
+
+    .event_categories_text a {
+        font-size: 12px;
+    }
+
+    /*business page start*/
+    .city_business_fig .city_service2_caption {
+        padding: 10px 0px 10px 10px;
+    }
+
+    .city_busine_detail {
+        padding: 30px 10px;
+    }
+
+    .city_business_list .see_more_btn {
+        padding: 20px 10px;
+    }
+
+    .city_visit_text {
+        padding: 41px 0px 40px 40px;
+    }
+
+    .city_visit_text p:nth-child(4) {
+        display: none;
+    }
+
+    .city_visit_text h3:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .city_visit_text {
+        padding: 55px 0px 55px 40px;
+        height: 319px;
+    }
+
+    .city_visit_text.text2 {
+        padding: 55px 40px 55px 0px;
+        height: 319px;
+    }
+
+    .city_visit_fig figure img {
+        height: 319px;
+    }
+
+    /*business detail page start*/
+    .side_notice_text h6,
+    .side_contact_text h6 {
+        font-size: 16px;
+    }
+
+    .side_notice_list .sidebar_title {
+        font-size: 20px;
+    }
+
+    .accordion-section-title,
+    .city_local_link li a {
+        font-size: 13px;
+    }
+
+    .acoordian_text p {
+        font-size: 12px;
+    }
+
+    /*event page start*/
+    .city_event2_text h4 {
+        font-size: 20px;
+    }
+
+    /*EVENT FULL PAGE START*/
+    .city_full_event_list {
+        padding: 30px 20px 26px;
+    }
+
+    .city_event2_calender {
+        margin: 12px 20px 12px 0px;
+    }
+
+    .city_event2_meeting {
+        padding-left: 20px;
+    }
+
+    .city_event2_meeting p {
+        font-size: 13px;
+    }
+
+    .city_event2_meeting .city_meta_list li {
+        margin-right: 16px;
+    }
+
+    /*event detail page start*/
+    .sidebar_heading {
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .city_sponsor ul li {
+        width: 45%;
+    }
+
+    .event_grid_list .event_categories_text h4 span {
+        display: inline;
+    }
+
+    .event_grid_list .event_categories_text h4 {
+        font-size: 18px;
+    }
+
+    /*event list page start*/
+    .city_event2_year .sidebar_search input {
+        width: 182px;
+    }
+
+    .city_blog_text.event2 {
+        width: 100%;
+    }
+
+    .city_blog_text.event2 {
+        width: auto;
+        padding: 35px 20px 33px 30px;
+        float: none;
+    }
+
+    .city_blog_text.event2 .city_meta_list li {
+        margin-right: 10px;
+    }
+
+    .city_blog_text.event2 .city_meta_list li a {
+        font-size: 12px;
+    }
+
+    .city_event2_list2_fig {
+        position: static;
+    }
+
+    .city_event2_list2_fig figure {
+        width: auto;
+    }
+
+    .city_blog_text.event2>p {
+        display: none;
+    }
+
+    /*foum detail page start*/
+    .forum_card h3 {
+        font-size: 24px;
+    }
+
+    .forum_img {
+        width: 46.3%;
+    }
+
+    .sidebar_search_login .theam_btn {
+        padding: 10px 15px;
+    }
+
+    /*health page start*/
+    .city_department_text h5 {
+        font-size: 14px;
+    }
+
+    .city_department_text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /*health grid page start*/
+    .city_blog_grid_text h5 {
+        font-size: 16px;
+    }
+
+    /*health department page start*/
+    .city_health2_text.text2 .city_project_text {
+        left: 0px;
+        right: 0px;
+        padding: 0px 10px;
+    }
+
+    .city_health2_text.text2 .city_project_text h3 {
+        display: none;
+    }
+
+    .city_health2_text.text2 .city_project_text span {
+        display: block;
+        font-size: 40px;
+        line-height: 20px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .city_health2_text.text2 .city_project_text {
+        margin-top: -30px;
+    }
+
+    /*health department 02 page start*/
+    .section_heading h2 {
+        font-size: 30px;
+    }
+
+    .city_treatment_list a {
+        margin-right: 24px;
+    }
+
+    .city_project_wrap {
+        padding: 100px 20px 174px;
+    }
+
+    /*mayor page start*/
+    .city_mayor_list li {
+        font-size: 18px;
+    }
+
+    /*news post list page start */
+    .city_news2_post.post2 .city_meta_list li {
+        margin-right: 12px;
+    }
+
+    .city_news2_post.post2 .city_news2_detail h4 {
+        font-size: 18px;
+    }
+
+    /*project page start*/
+    .city_project_fig .city_project_text h4,
+    .city_project_fig.fig2 .city_project_text h4 {
+        font-size: 18px;
+    }
+
+    .city_project_fig .city_project_text span,
+    .city_project_fig.fig2 .city_project_text span {
+        margin-bottom: 4px;
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .city_project_fig.fig2 .city_project_text {
+        margin-top: -70px;
+    }
+
+    .city_project_fig.fig2:hover .city_project_text {
+        margin-top: -80px;
+    }
+
+    /*project detail page strat*/
+    .project_title {
+        font-size: 20px;
+    }
+
+    .city_project_wrap.detail .city_project_text {
+        margin-top: -75px;
+    }
+
+    /*login page start*/
+    .city_register_list h6 {
+        font-size: 15px;
+    }
+}
+
+/*
+=================================================
+			FROM 0PX TO 979PX
+=================================================
+*/
+@media (max-width: 991px) {
+    .city_top_wrap {
+        padding: 25px 0px;
+    }
+
+    .city_department_fig {
+        overflow: hidden;
+    }
+
+    .city_top_logo {
+        float: left;
+        width: 25%;
+        margin-right: 20px;
+    }
+
+    .city_top_news span {
+        padding: 4px 30px 3px 20px;
+        margin-right: 14px;
+    }
+
+    .city_top_wrap .slick-slider {
+        width: 50%;
+    }
+
+    .city_top_news {
+        width: 46%;
+    }
+
+    .city_top_social ul li:last-child {
+        display: none;
+    }
+
+    .city_top_social {
+        width: 24%;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .city_top_search {
+        width: 92%;
+    }
+
+    .top_user {
+        padding: 0px 0px 0px 15px;
+    }
+
+    .city_top_form {
+        width: 90%;
+        padding: 7px 0px
+    }
+
+    .city_top_navigation.sticky,
+    .city_top_navigation {
+        padding: 15px 30px 15px;
+    }
+
+    .dl-menuwrapper {
+        display: block;
+    }
+
+    .dl-menuwrapper .dl-menu {
+        right: 100%;
+    }
+
+    .small_text,
+    .large_text {
+        display: none;
+    }
+
+    .banner_btn {
+        margin-bottom: 20px;
+    }
+
+    .medium_text {
+        font-size: 40px;
+        margin-bottom: 14px;
+    }
+
+    .banner_text {
+        right: 45px;
+        width: 420px;
+        padding: 22px 30px 30px;
+        margin-top: -125px;
+    }
+
+    .city_service_text {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .city_service_text span {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    .city_service_text h5 {
+        float: none;
+        font-size: 17px;
+    }
+
+    .bg_white {
+        width: 100%;
+        padding: 103px 0px 0px;
+    }
+
+    .width_control {
+        width: 50%;
+    }
+
+    .city_department_text h5 {
+        font-size: 17px;
+    }
+
+    .city_project_wrap .slick-dots {
+        display: none !important;
+    }
+
+    .copyright_text,
+    .city_project_text h3,
+    .city_job_text,
+    .city_blog_fig.position,
+    .city_office_wrap,
+    .city_triagle {
+        display: none;
+    }
+
+    .city_jobs_wrap,
+    .city_department_wrap {
+        background-image: none;
+        padding-bottom: 0px;
+    }
+
+    .city_blog_text h4 {
+        font-size: 20px;
+    }
+
+    .city_event_fig figure,
+    .bg_white.width,
+    .city_jobs_list {
+        width: 100%;
+    }
+
+    .city_project_text span {
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .city_project_text {
+        margin-top: -40px;
+    }
+
+    .city_project_fig:hover .city_project_text {
+        margin-top: -50px;
+    }
+
+    .city_project_wrap {
+        padding: 100px 20px 70px;
+    }
+
+    .custom_size {
+        font-size: 18px;
+    }
+
+    .city_client_link {
+        padding: 45px 0px 0px;
+    }
+
+    .city_client_row .bx-wrapper .bx-prev {
+        bottom: 40px;
+        right: -60px;
+    }
+
+    .city_client_row .bx-wrapper .bx-next {
+        right: -163px;
+        top: 90px;
+    }
+
+    .city_client_wrap {
+        padding: 60px 0px 90px;
+    }
+
+    .city_news_meta li {
+        padding: 0px 12px;
+    }
+
+    .city_news_row>ul>li {
+        margin-bottom: 35px;
+    }
+
+    .city_news_form {
+        margin: 40px 0px 0px;
+    }
+
+    .city_request_list {
+        padding: 30px 15px 26px;
+    }
+
+    .city_request_link ul li a {
+        font-size: 12px;
+    }
+
+    .widget_list {
+        margin-bottom: 40px;
+    }
+
+    .city_about_wrap {
+        padding: 100px 0px 120px;
+    }
+
+    .city_department_wrap .slick-list.draggable {
+        height: auto;
+    }
+
+    .city_event_text {
+        padding: 25px 15px 20px 25px;
+    }
+
+    /*service page start*/
+    .sab_banner {
+        padding: 90px 0px 100px;
+    }
+
+    .city_service2_caption h4 {
+        font-size: 24px;
+    }
+
+    .city_award_text h3 {
+        line-height: 17px;
+        font-size: 16px;
+    }
+
+    .city_award_text {
+        padding: 8px 0px 0px 20px;
+    }
+
+    .city_news2_fig {
+        margin-bottom: 30px;
+    }
+
+    .sab_banner_text h2 {
+        font-size: 56px;
+    }
+
+    /*service detail page start*/
+    .city_health_fig:after,
+    .city_health_fig:before {
+        border: none;
+    }
+
+    .city_health_text {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .city_health_text h2 span {
+        display: inline;
+    }
+
+    .city_notice {
+        margin-bottom: 40px;
+    }
+
+    .city_department2_text {
+        padding: 0px 0px 18px 30px;
+    }
+
+    .city_department2_text.text2 {
+        padding: 0px 30px 18px 0px;
+    }
+
+    .city_health_wrap {
+        padding: 80px 0px 100px;
+    }
+
+    /*service detail 02 page start*/
+    .emergency_service_item h4 {
+        font-size: 22px;
+    }
+
+    /*blog detail page start*/
+    .detail_process_list li a {
+        font-size: 14px;
+    }
+
+    /*blog list page start*/
+    .event_sidebar {
+        margin-top: 30px;
+    }
+
+    /*business page start*/
+    .city_busine_detail {
+        padding: 30px 20px;
+    }
+
+    .city_visit_text {
+        padding: 41px 0px 40px 40px;
+    }
+
+    .city_visit_text p:nth-child(4) {
+        display: none;
+    }
+
+    .city_visit_text h3:nth-child(2) {
+        margin-bottom: 10px;
+    }
+
+    .city_visit_text {
+        padding: 55px 0px 55px 40px;
+        height: 319px;
+    }
+
+    .city_visit_text.text2 {
+        padding: 55px 40px 55px 0px;
+        height: 319px;
+    }
+
+    .city_visit_fig figure img {
+        height: 319px;
+    }
+
+    .city_visit_text h3 {
+        font-size: 24px;
+    }
+
+    /*business detail page start*/
+    .side_notice_list {
+        margin-bottom: 40px;
+    }
+
+    .city_health2_service {
+        margin-bottom: 30px;
+    }
+
+    .city_local_link li a {
+        font-size: 13px;
+    }
+
+    .acoordian_text {
+        padding: 35px 0px 19px 20px;
+    }
+
+    /*coming soon page start*/
+    .city_coming_text .countdown li h3,
+    .city_coming_text>h3 {
+        font-size: 40px;
+    }
+
+    .city_coming_text .countdown li {
+        padding: 0px 45px;
+    }
+
+    /*contact us page start*/
+    .city_contact_text h3 {
+        font-size: 24px;
+    }
+
+    /*404 page start*/
+    .city_404_wrap {
+        padding: 230px 0px 330px;
+    }
+
+    /*event page start*/
+    .city_event2_text h4 {
+        font-size: 24px;
+    }
+
+    /*event full page start*/
+    .city_event2_calender,
+    .city_full_event_list {
+        text-align: center;
+    }
+
+    .city_event2_calender ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    .city_event2_calender {
+        margin: 12px 0px 30px 0px;
+        width: 100%;
+    }
+
+    .city_event2_calender ul {
+        width: 100%;
+    }
+
+    .city_event2_meeting {
+        padding-left: 0px;
+        border-left: none;
+        width: 100%;
+    }
+
+    .city_event2_meeting .city_meta_list li {
+        float: none;
+        display: inline-block;
+    }
+
+    .city_full_event_list .theam_btn.btn2 {
+        float: none;
+    }
+
+    /*event 02 page start*/
+    .event_grid_list .event_categories_list {
+        padding: 30px 20px;
+    }
+
+    .event_grid_list .event_categories_text h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    /*event detail page start*/
+    .event_booking_field,
+    .event_booking_form,
+    .sidebar_widget.widget2 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .city_sponsor ul li a img {
+        width: 100%;
+    }
+
+    .city_sponsor ul li {
+        float: left;
+        width: 48.8%;
+    }
+
+    /*event list page start*/
+    .event_video {
+        float: left;
+        width: 48%;
+        margin-right: 27px;
+    }
+
+    .event_video:last-child {
+        margin-right: 0px;
+    }
+
+    .city_event2_row {
+        padding-top: 40px;
+    }
+
+    .city_event2_year .sidebar_search input {
+        width: 194px;
+    }
+
+    .city_blog_text.event2 {
+        width: auto;
+        padding: 55px 20px 50px 30px;
+        float: none;
+    }
+
+    .city_blog_text.event2 .city_meta_list li {
+        margin-right: 10px;
+    }
+
+    .city_blog_text.event2 .city_meta_list li a {
+        font-size: 12px;
+    }
+
+    .city_event2_list2_fig {
+        position: static;
+    }
+
+    .city_event2_list2_fig figure {
+        width: auto;
+    }
+
+    .city_blog_text.event2>p {
+        display: none;
+    }
+
+    /*forum page start*/
+    .forum_title {
+        padding: 42px 8px;
+    }
+
+    .forum_topic {
+        padding: 60px 0px;
+    }
+
+    .forum_month {
+        padding: 46px 0px;
+    }
+
+    /*forum 02 page start*/
+    .forum_fig.forum2 .forum_text p {
+        display: none;
+    }
+
+    .forum_fig {
+        padding: 28px 30px;
+    }
+
+    /*forum detail page start*/
+    .forum_detail_deta {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    /*health grid page start*/
+    .city_blog_grid_text h5 {
+        font-size: 16px;
+    }
+
+    /*health department page start*/
+    .city_health2_text.text2 .city_project_text {
+        margin-top: -20px;
+    }
+
+    /*health department 02 page start*/
+    .city_about_fig.fig2 {
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 30px;
+    }
+
+    .city_treatment_list a {
+        margin-right: 19px;
+    }
+
+    .city_treatment_text h4 {
+        font-size: 15px;
+    }
+
+    .city_treatment_text .paly_btn {
+        margin-bottom: 15px;
+    }
+
+    .city_treatment_text {
+        margin-top: -30px;
+    }
+
+    .city_treatment_list a {
+        margin-right: 12px;
+    }
+
+    .city_health2_text.wrap .slick-prev,
+    .city_health2_text.wrap .slick-next {
+        display: none !important;
+    }
+
+    .city_special2_text h2 {
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    /*mayor page start*/
+    .city_mayor_text h2 {
+        font-size: 30px;
+    }
+
+    .city_mayor_list li {
+        font-size: 15px;
+    }
+
+    .city_mayor_contact .theam_btn {
+        margin-right: 15px;
+        font-size: 12px;
+        padding: 10px 11px;
+    }
+
+    .city_mayor_text {
+        padding: 0px 0px 0px 20px;
+    }
+
+    .city_event_detail.question {
+        padding: 72px 60px 80px;
+    }
+
+    /*news page start*/
+    .city_news2_detail h3 {
+        font-size: 24px;
+    }
+
+    .city_news2_detail p {
+        font-size: 14px;
+    }
+
+    /*news post page start*/
+    .city_news2_post.post2 .city_news2_detail {
+        padding: 22px 20px 23px 30px;
+    }
+
+    /*project page start*/
+    .city_project_fig.fig2 .city_project_text {
+        margin-top: -70px;
+    }
+
+    /*project 02 page start*/
+    .city_project02_text h5 {
+        padding-left: 14px;
+        font-size: 15px;
+    }
+
+    /*project detail page start*/
+    /*project detail page strat*/
+    .project_title {
+        font-size: 20px;
+    }
+
+    .city_project_wrap.detail .city_project_text {
+        margin-top: -65px;
+    }
+
+    .city_project_wrap.detail .city_project_fig {
+        margin-bottom: 30px;
+        float: left;
+        width: 100%;
+    }
+
+    /*login page start*/
+    .city_login {
+        width: 100%;
+    }
+
+    .city_or {
+        display: none;
+    }
+}
+
+/*
+=================================================
+			FROM 768PX TO 979PX
+=================================================
+*/
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/*
+=================================================
+			FROM 0PX TO 767PX
+=================================================
+*/
+@media (max-width: 767px) {
+    .city_top_news {
+        display: none;
+    }
+
+    .city_banner_services {
+        padding: 35px 3px;
+    }
+
+    .city_top_logo {
+        width: 50%;
+    }
+
+    .city_top_social {
+        width: 45%;
+    }
+
+    .city_top_search {
+        width: 88%;
+    }
+
+    .city_main_banner .slick-slide {
+        width: 100%;
+    }
+
+    .city_top_form {
+        width: 86%;
+    }
+
+    .city_top_search {
+        width: 88%;
+    }
+
+    .banner_text {
+        display: none;
+    }
+
+    .city_main_banner .slick-next {
+        left: 60px;
+    }
+
+    .city_main_banner .slick-prev {
+        left: 15px;
+    }
+
+    .city_project_mansory ul li:last-child,
+    .city_service_list ul li:last-child {
+        display: none;
+    }
+
+    .city_service_list ul li:nth-child(3):before {
+        border-right: none;
+    }
+
+    .city_service_list ul li {
+        width: 33%;
+    }
+
+    .city_service_text h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .border:after,
+    .border:before {
+        width: 210px;
+    }
+
+    .city_about_list {
+        margin-top: 30px;
+    }
+
+    .city_client_link,
+    .city_client_row,
+    .city_department_fig figure {
+        width: 100%;
+    }
+
+    .city_department_text {
+        overflow: hidden;
+        padding: 15px 0px 15px 1px;
+        text-align: center;
+    }
+
+    .city_request_list,
+    .city_news_fig,
+    .city_blog_fig {
+        margin-bottom: 30px;
+    }
+
+    .city_jobs_item.pull-right .ciy_jobs_caption {
+        width: 71%;
+    }
+
+    .ciy_jobs_caption h2 {
+        font-size: 26px;
+    }
+
+    .section_heading h2 {
+        font-size: 28px;
+    }
+
+    .city_project_mansory ul li {
+        margin-right: 10px;
+    }
+
+    .city_project_text span {
+        font-size: 30px;
+        line-height: 26px;
+    }
+
+    .city_project_text {
+        left: 10px;
+    }
+
+    .city_project_text {
+        margin-top: -30px;
+    }
+
+    .city_client_text {
+        padding: 85px 0px 0px 14px;
+    }
+
+    .city_client_fig figure {
+        width: 40%;
+        position: relative;
+        top: 10px;
+    }
+
+    .client_arrow {
+        float: none;
+        width: auto;
+        display: inline-block;
+        margin: 0px 5px;
+    }
+
+    .city_client_text p::before {
+        left: -5px;
+    }
+
+    .widget_logo {
+        float: left;
+        width: auto;
+    }
+
+    .widget_copyright .city_top_social {
+        float: right;
+        width: auto;
+    }
+
+    .city_about_wrap {
+        padding: 80px 0px 160px;
+    }
+
+    .bg_white {
+        padding: 83px 0px 60px;
+    }
+
+    .city_blog_wrap {
+        padding: 100px 0px 60px;
+    }
+
+    .bg_white.width {
+        padding: 92px 15px 60px;
+    }
+
+    /*service page start*/
+    .sab_banner_text h2 {
+        font-size: 46px;
+    }
+
+    .sab_banner {
+        padding: 60px 0px 70px;
+    }
+
+    .sab_banner_text {
+        text-align: center;
+    }
+
+    .special_service_text {
+        width: 100%;
+        left: 0px;
+        padding: 65px 0px 70px;
+    }
+
+    .city_award_list {
+        float: left;
+        width: 33.3%;
+        text-align: center;
+    }
+
+    .city_award_list span {
+        font-size: 30px;
+        float: none;
+        margin-bottom: 5px;
+        display: block;
+    }
+
+    .city_award_text {
+        padding: 0px 0px 0px 0px;
+    }
+
+    /*service 02 page start*/
+    .city_health_list {
+        text-align: center;
+    }
+
+    /*service detail page start*/
+    .city_service_tabs_text,
+    .city_health_text {
+        text-align: center;
+    }
+
+    .city_health_text h2 {
+        font-size: 30px;
+    }
+
+    .city_health_text h2 span {
+        display: inline;
+    }
+
+    .city_health_wrap {
+        padding: 80px 0px;
+    }
+
+    .city_department2_fig figure {
+        width: 100%;
+    }
+
+    .city_department2_text {
+        width: 100%;
+        padding: 30px 0px 18px 1px
+    }
+
+    .city_department2_text.text2 {
+        padding: 0px 0px 30px 0px
+    }
+
+    .city_emergency_call h5 {
+        font-size: 17px;
+    }
+
+    .city_emergency_call ul li:nth-child(2n+1) {
+        width: 60%;
+    }
+
+    .city_emergency_call ul li {
+        width: 40%;
+    }
+
+    .city_emergency_call ul li a {
+        display: block;
+        padding: 14px 20px;
+        font-size: 14px;
+    }
+
+    /*service detail page start*/
+    .service_title {
+        font-size: 24px;
+    }
+
+    .city_emergency_slide_text h5 {
+        font-size: 16px;
+    }
+
+    .emergency_service.margin-0 {
+        margin-bottom: 30px;
+    }
+
+    /*team page start*/
+    .city_team_fig {
+        margin-bottom: 30px;
+    }
+
+    /*blog detail page start*/
+    .city_top_navigation.sticky,
+    .city_top_navigation {
+        padding: 15px 10px 15px;
+    }
+
+    .blog_process_detail figure {
+        width: 100%;
+    }
+
+    .blog_detail_process_text {
+        padding: 30px 0px 0px 5px;
+    }
+
+    .city_event_tags span,
+    .city_event_tags span a {
+        margin-right: 4px;
+    }
+
+    .city_event_meta .city_top_social span,
+    .city_top_social ul li:nth-child(3) {
+        display: none;
+    }
+
+    .blog_post_slide_text {
+        padding: 26px 4px;
+    }
+
+    .forum_replie_list li .chlid {
+        padding-left: 0px;
+    }
+
+    .forum_user_meta h5 {
+        margin: 0px 25px 5px 0px;
+    }
+
+    .event_booking_field {
+        position: relative;
+        z-index: 1;
+    }
+
+    /*blog list page start*/
+    .city_blog2_fig.fig2 .theam_btn {
+        padding: 10px 11px;
+    }
+
+    /*business detail page start*/
+    .acoordian_text {
+        padding: 12px 0px 12px 20px;
+    }
+
+    .city_health2_text .city_project_text {
+        margin-top: -20px;
+    }
+
+    .city_coming_text .countdown li h3,
+    .city_coming_text>h3 {
+        font-size: 24px;
+    }
+
+    .city_coming_text .countdown li {
+        padding: 0px 25px;
+    }
+
+    .city_coming_text .countdown li h3 {
+        margin-bottom: 0px;
+    }
+
+    .city_coming_text .countdown li {
+        padding: 0px 12px;
+    }
+
+    .city_coming_search {
+        padding: 0px 30px;
+    }
+
+    .city_coming_feild {
+        width: 100%;
+    }
+
+    .city_coming_text>h3 {
+        margin-bottom: 20px;
+    }
+
+    .city_404_wrap.coming {
+        padding: 140px 0px;
+    }
+
+    /*contact us page start*/
+    .city_contact_text {
+        padding: 33px 25px;
+        margin-bottom: 30px;
+    }
+
+    /*404 page start*/
+    .city_404_text h3 {
+        font-size: 48px;
+        line-height: 40px;
+    }
+
+    .city_404_text h2 {
+        margin-bottom: 30px;
+    }
+
+    /*event full page start*/
+    .city_event2_meeting .city_meta_list li {
+        margin-right: 10px;
+    }
+
+    .city_meta_list li a {
+        font-size: 13px;
+    }
+
+    /*event detail page start*/
+    .city_sponsor ul li {
+        float: left;
+        width: 48%;
+    }
+
+    .event_heading {
+        line-height: 35px;
+    }
+
+    .event_counter_list .countdown li {
+        margin-right: 10px;
+    }
+
+    .event_counter_list .countdown li::before {
+        background: none;
+    }
+
+    .event_grid_list.responsive {
+        margin-bottom: 30px;
+    }
+
+    /*event list page start*/
+    .event_video {
+        width: 46%;
+    }
+
+    .city_event2_row>ul>li:nth-child(2) {
+        display: none;
+    }
+
+    .city_event2_row>ul>li:last-child,
+    .city_event2_row>ul>li {
+        width: 50%;
+        padding: 38px 15px;
+    }
+
+    .city_event2_row>ul>li:last-child {
+        padding: 31px 15px;
+    }
+
+    .city_event2_year .sidebar_search input {
+        width: 123px;
+    }
+
+    .city_event2_year .sidebar_search {
+        margin-right: 5px;
+    }
+
+    .city_event2_list2_fig figure {
+        width: 100%;
+    }
+
+    .city_blog_text.event2>p {
+        display: block;
+    }
+
+    .city_blog_text.event2 {
+        padding: 45px 20px 50px 30px;
+    }
+
+    /*forum page start*/
+    .forum_text {
+        display: none;
+    }
+
+    .forum_list ul li {
+        width: 30%;
+    }
+
+    .forum_list ul li:nth-child(3),
+    .forum_list ul li:nth-child(2) {
+        width: 18%;
+    }
+
+    .forum_topic {
+        padding: 49px 0px;
+    }
+
+    .forum_list ul li:last-child {
+        width: 34%;
+    }
+
+    .forum_month {
+        padding: 35px 6px;
+    }
+
+    .forum_month a {
+        font-size: 14px;
+    }
+
+    .forum_title h6 {
+        font-size: 15px;
+    }
+
+    /*forum detail page start*/
+    .forum_card h3 {
+        font-size: 24px;
+    }
+
+    .forum_img {
+        width: 46%;
+    }
+
+    /*mayor page start*/
+    .city_mayor_fig figure {
+        width: 100%;
+    }
+
+    .city_mayor_text {
+        padding: 30px 0px 0px 1px;
+    }
+
+    .city_mayor_caption p {
+        text-align: center;
+    }
+
+    /*news page start*/
+    .city_news2_detail {
+        padding: 50px 10px;
+    }
+
+    /*news post page start*/
+    .city_news2_post.post2 figure {
+        width: 100%;
+    }
+
+    .city_news2_post.post2 .city_news2_detail {
+        padding: 22px 10px 23px 20px;
+    }
+
+    .city_health2_text.text2 .row.program-slider {
+        margin: auto;
+    }
+
+    /*login page start*/
+    .city_register_list h6 {
+        font-size: 14px;
+    }
+}
+
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (min-width: 360px) and (max-width: 640px) {}
+
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 481px) {}
+
+/*
+=================================================
+			FROM 0PX TO 0PX
+=================================================
+*/
+@media (max-width: 480px) {
+    .city_top_logo {
+        width: 60%;
+        margin: 0px 0px 0px;
+    }
+
+    .city_top_social ul li:nth-child(2),
+    .city_top_social ul li:nth-child(3) {
+        display: none;
+    }
+
+    .city_top_social ul li:nth-child(4) {
+        margin-right: 0px;
+    }
+
+    .city_top_social {
+        width: auto;
+    }
+
+    .city_top_navigation.sticky,
+    .city_top_navigation {
+        padding: 15px 0px 15px;
+    }
+
+    .city_top_form {
+        width: 83%;
+    }
+
+    .city_top_search {}
+
+    .city_top_navigation:before {
+        background: none;
+    }
+
+    .city_banner_services {
+        padding: 35px 0px;
+    }
+
+    .city_service_list ul li {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+
+    .city_service_list ul li:last-child {
+        display: block;
+    }
+
+    .city_service_list ul li::before {
+        border: none;
+    }
+
+    .city_service_text span {
+        display: inline-block;
+    }
+
+    .city_service_text h5 {
+        line-height: 22px;
+    }
+
+    .city_about_fig {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .city_about_fig figure {
+        margin-bottom: 40px;
+    }
+
+    .city_about_video {
+        position: static;
+    }
+
+    .border:after,
+    .border:before {
+        width: 110px;
+    }
+
+    .city_about_link li a {
+        font-size: 13px;
+    }
+
+    .width_control {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .section_heading h2 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .city_department_wrap .slick-prev,
+    .city_department_wrap .slick-next {
+        display: none !important;
+    }
+
+    .city_blog_text span {
+        margin-bottom: 10px;
+    }
+
+    .city_jobs_item {
+        text-align: center;
+    }
+
+    .city_jobs_item span {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .ciy_jobs_caption {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .city_jobs_item.pull-right .ciy_jobs_caption {
+        width: 100%;
+        text-align: center;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .city_jobs_item.pull-right span {
+        float: none;
+    }
+
+    .city_project_wrap .slick-slide {
+        padding: 0px 0px;
+    }
+
+    .event_date {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .city_request_link ul li,
+    .city_news_list figure,
+    .city_client_fig figure {
+        width: 100%;
+    }
+
+    .city_date_text {
+        padding: 4px 0px 7px 1px;
+    }
+
+    .city_client_row .bx-wrapper .bx-viewport {
+        height: 100% !important;
+    }
+
+    .city_news_text h2 {
+        font-size: 30px;
+    }
+
+    .city_news_list_text {
+        padding: 18px 0px 15px 7px;
+    }
+
+    .city_request_link ul li:nth-child(8) {
+        display: none;
+    }
+
+    .city_request_text h4 {
+        font-size: 24px;
+    }
+
+    .city_banner_services {
+        padding: 35px 0px 0px;
+    }
+
+    .top_user {
+        padding: 0px 0px 0px 9px;
+    }
+
+    .city_document_list ul li a i {
+        margin-right: 10px;
+    }
+
+    .city_document_list ul li a {
+        font-size: 11px;
+    }
+
+    .city_request_text h4 {
+        font-size: 22px;
+    }
+
+    .city_request_link ul li a {
+        font-size: 14px;
+    }
+
+    .city_request_link ul li a:before {
+        top: -1px;
+    }
+
+    /* service page start*/
+    .city_service2_caption h4 {
+        font-size: 18px;
+    }
+
+    .city_service2_caption {
+        padding: 8px 0px 0px 15px;
+    }
+
+    .custom_size2 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+    .special_service_text h3 {
+        font-size: 24px;
+    }
+
+    .special_service_text p span {
+        display: inline;
+    }
+
+    .special_service_text {
+        padding: 65px 14px 70px;
+    }
+
+    .city_award_list {
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .city_award_list span {
+        font-size: 36px;
+        margin-bottom: 11px;
+    }
+
+    .city_news2_text p {
+        display: none;
+    }
+
+    .city_news2_text {
+        bottom: 20px;
+    }
+
+    .social_icon li {
+        margin-right: 12px;
+    }
+
+    /*service 02 page start*/
+    .pagination ul li a {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .pagination ul li {
+        margin-right: 6px;
+    }
+
+    .pagination {
+        margin: 20px 0px 0px 0px;
+    }
+
+    /*service detail page start*/
+    .city_health_text h2 {
+        font-size: 21px;
+    }
+
+    .city_service_tabs_text h3 {
+        font-size: 22px;
+    }
+
+    .city_service_tabs_text h5 {
+        line-height: normal;
+    }
+
+    .city_department2_text {
+        text-align: center;
+    }
+
+    .city_emergency_call ul li,
+    .city_emergency_call ul li:nth-child(2n+1) {
+        width: 100%;
+    }
+
+    .breadcrumb>li {
+        padding: 0px 12px;
+    }
+
+    /*service detail 03 page start*/
+    .emergency_service,
+    .emergency_service_item,
+    .city_notice {
+        text-align: center;
+    }
+
+    .city_emergency_slider .slick-prev,
+    .city_emergency_slider .slick-next {
+        display: none !important;
+    }
+
+    .service_title {
+        font-size: 20px;
+    }
+
+    .emergency_service_item h4,
+    .emergency_service_item span {
+        float: none;
+    }
+
+    .emergency_service_item h4 {
+        padding-left: 0px;
+    }
+
+    .emergency_service {
+        padding: 23px 18px;
+    }
+
+    .city_emergency_call h5 {
+        padding: 15px 17px 18px;
+    }
+
+    .widget_list {
+        position: relative;
+        z-index: 1;
+    }
+
+    /*team page start*/
+    .sab_banner_text h2 {
+        font-size: 34px;
+    }
+
+    .widget_copyright {
+        margin-top: 0px;
+    }
+
+    .city_blog2_wrap {
+        padding: 100px 0px 50px;
+    }
+
+    /*blog page start*/
+    .city_blog2_list .city_meta_list li {
+        padding: 0px 12px;
+    }
+
+    /*blog detail page start*/
+    .blog_detail_row {
+        padding: 0px 20px;
+    }
+
+    .city_blog2_fig.fig2 .city_meta_list li {
+        padding: 0px 10px;
+    }
+
+    .city_blog2_fig.fig2 .city_meta_list li a {
+        font-size: 13px;
+    }
+
+    .city_blog2_fig.fig2 .city_blog2_text h4 {
+        font-size: 20px;
+    }
+
+    .forum_quote {
+        padding: 27px 20px 25px;
+    }
+
+    .blog_detail_process_text h4 {
+        font-size: 20px;
+    }
+
+    .city_event_tags span {
+        font-size: 13px;
+    }
+
+    .city_top_social ul li:nth-child(2),
+    .city_top_social ul li:nth-child(3) {
+        display: inline-block;
+    }
+
+    .city_blog2_fig.fig2 .city_meta_list,
+    .forum_user_meta .city_meta_list,
+    .city_event_tags,
+    .city_event_meta,
+    .city_top_social ul,
+    .city_event_meta .city_top_social {
+        float: left;
+        width: 100%;
+    }
+
+    .city_blog2_fig.fig2 .city_meta_list,
+    .forum_user_meta .city_meta_list,
+    .blog_post_slide_text,
+    .blog_detail_process>p,
+    .blog_detail_process_text,
+    .city_blog2_list>p,
+    .city_blog2_text,
+    .city_event_tags,
+    .city_event_meta,
+    .city_top_social ul {
+        text-align: center;
+    }
+
+    .city_blog2_fig.fig2 .city_meta_list li,
+    .forum_user_meta .city_meta_list li,
+    .city_top_social ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    .city_event_tags {
+        margin-bottom: 20px;
+    }
+
+    .event_sidebar .city_top_social {
+        float: left;
+        width: auto;
+    }
+
+    .city_top_social ul li:nth-child(4) {
+        margin-right: 5px;
+    }
+
+    .forum_user_replay figure,
+    .blog_post_author figure {
+        width: 100%;
+        margin: 10px 0px 20px;
+    }
+
+    .blog_post_author_text {
+        padding-left: 1px;
+        text-align: center;
+    }
+
+    .blog_post_slide .slick-prev,
+    .blog_post_slide .slick-next {
+        display: none !important;
+    }
+
+    .blog_user_comment .sidebar_heading {
+        font-size: 20px;
+    }
+
+    .forum_user_detail {
+        overflow: hidden;
+        padding: 0px 0px 0px 1px;
+        text-align: center;
+    }
+
+    .forum_user_meta h5 {
+        margin: 0px 0px 5px 0px;
+        float: none;
+    }
+
+    .city_meta_list li {
+        margin-right: 6px;
+    }
+
+    .blog_author_date li {
+        padding: 0px 5px;
+    }
+
+    .event_categories_text a {
+        font-size: 13px;
+    }
+
+    .blog_author_date li:before {
+        width: 0px;
+    }
+
+    .city_top_wrap .city_top_social ul li:nth-child(2),
+    .city_top_wrap .city_top_social ul li:nth-child(3),
+    .widget_copyright .city_top_social ul li:nth-child(2),
+    .widget_copyright .city_top_social ul li:nth-child(3) {
+        display: none;
+    }
+
+    .sidebar_heading {
+        padding-left: 15px;
+        font-size: 16px;
+    }
+
+    .city_meta_list li a {
+        font-size: 14px;
+    }
+
+    .widget_logo {
+        float: left;
+        width: 62%;
+    }
+
+    .detail_process_list li a:before {
+        background: none;
+    }
+
+    .detail_process_list li a {
+        padding-left: 0px;
+    }
+
+    /*blog list page start*/
+    .city_blog2_fig.fig2.responsive .city_meta_list {
+        margin-bottom: 10px;
+    }
+
+    .city_blog2_fig.fig2.responsive .city_meta_list li a {
+        font-size: 12px;
+    }
+
+    .city_blog2_fig.fig2.responsive .theam_btn {
+        padding: 10px 11px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .city_blog2_fig.fig2.responsive .city_blog2_text p {
+        margin-bottom: 10px;
+    }
+
+    /*business page start*/
+    .city_busine_detail li a {
+        font-size: 13px;
+    }
+
+    .city_business_fig .city_service2_caption {
+        padding: 10px 0px 10px 10px;
+    }
+
+    .city_business_fig .city_service2_caption h5 {
+        font-size: 16px;
+    }
+
+    .city_visit_fig figure img {
+        height: auto;
+    }
+
+    .city_visit_text {
+        padding: 44px 0px 55px 20px;
+        height: auto;
+    }
+
+    .city_visit_text h3 {
+        font-size: 21px;
+    }
+
+    .city_visit_text.text2 {
+        padding: 44px 20px 55px 0px;
+        height: auto;
+    }
+
+    /*business detail page start*/
+    .section_heading h3 {
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .accordion-section-content figure,
+    .city_local_link li {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .city_local_link li.margin0 {
+        margin-bottom: 15px !important;
+    }
+
+    .accordion-section-title {
+        font-size: 13px;
+    }
+
+    .city_health2_text .slick-prev,
+    .city_health2_text .slick-next {
+        display: none !important;
+    }
+
+    .row.program-slider {
+        margin: auto;
+    }
+
+    /*coming soon page start*/
+    .city_404_wrap.coming:after {
+        border: none;
+    }
+
+    .city_coming_text .countdown li h3,
+    .city_coming_text>h3 {
+        font-size: 20px;
+    }
+
+    .city_coming_text p {
+        font-size: 16px;
+    }
+
+    .city_coming_text .countdown li p {
+        font-size: 14px;
+    }
+
+    .city_coming_text .countdown li {
+        padding: 0px 10px;
+    }
+
+    .city_coming_feild button {
+        padding: 10px 10px;
+        font-size: 11px;
+    }
+
+    .city_404_wrap.coming {
+        padding: 100px 0px;
+    }
+
+    /*contact us page start*/
+    .city_contact_text {
+        text-align: center;
+    }
+
+    .city_contact_text h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .city_contact_text span {
+        font-size: 50px;
+        line-height: 50px;
+        float: none;
+        display: block;
+    }
+
+    .city_top_social ul li {
+        margin-right: 6px;
+    }
+
+    /*contact us page start*/
+    .city_404_text h2 {
+        font-size: 120px;
+        line-height: 100px;
+    }
+
+    .city_404_text h3 {
+        font-size: 32px;
+        line-height: 33px;
+    }
+
+    .city_404_wrap {
+        padding: 180px 0px 330px;
+    }
+
+    /*event page start*/
+    .city_event2_text h4 {
+        font-size: 20px;
+    }
+
+    /*event full page start*/
+    .city_event2_calender ul li {
+        width: 67px;
+    }
+
+    .city_event2_meeting h4 {
+        font-size: 18px;
+    }
+
+    .city_event2_meeting .city_meta_list li:last-child {
+        display: none;
+    }
+
+    .city_event2_meeting .city_meta_list li {
+        margin-right: 6px;
+    }
+
+    .city_meta_list li a {
+        font-size: 13px;
+    }
+
+    .city_event2_meeting p span {
+        display: inline;
+    }
+
+    .city_event2_calender {
+        margin: 12px 0px 20px 0px;
+    }
+
+    /*event 02 page start*/
+    .event_categories_date {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .event_categories_text {
+        text-align: center;
+        padding-left: 1px;
+    }
+
+    /*event detail page start*/
+    .city_sponsor ul li {
+        float: left;
+        width: 47%;
+    }
+
+    .event_heading {
+        line-height: 27px;
+        font-size: 20px;
+    }
+
+    .event_detail_text p {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .event_counter_list .countdown li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .event_counter_list .countdown li:last-child {
+        margin-bottom: 0px;
+    }
+
+    .event_counter_list .countdown {
+        padding: 0px 20px;
+    }
+
+    .event_counter_list .countdown li:before {
+        content: "";
+    }
+
+    /*event list page start*/
+    .event_video {
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+
+    .city_event2_row>ul>li:last-child,
+    .city_event2_row>ul>li {
+        width: 100%;
+        padding: 38px 15px;
+    }
+
+    .city_event2_row>ul>li {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .city_event2_year .sidebar_search input {
+        width: 100%;
+    }
+
+    .city_event2_year .sidebar_search {
+        margin-right: 5px;
+        width: 80%;
+    }
+
+    .city_blog_text.event2 .social_icon,
+    .city_blog_text.event2 .city_meta_list li:last-child {
+        display: none;
+    }
+
+    .city_blog_text.event2 .city_meta_list li a {
+        font-size: 13px;
+    }
+
+    /*forum page start*/
+    .forum_list ul li:last-child {
+        display: none;
+    }
+
+    .forum_list ul li {
+        width: 50%;
+    }
+
+    .forum_list ul li:nth-child(3),
+    .forum_list ul li:nth-child(2) {
+        width: 25%;
+    }
+
+    /*forum detail page start*/
+    .forum_card {
+        padding: 38px 20px 40px;
+        text-align: center;
+    }
+
+    .forum_card h3 {
+        font-size: 22px;
+    }
+
+    .forum_img {
+        margin-right: 18px;
+        width: 100%;
+    }
+
+    .event_categories_list.post .event_categories_text,
+    .forum_quote {
+        text-align: left;
+    }
+
+    .city_event_meta .city_meta_list {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .city_event_meta .city_meta_list li {
+        float: none;
+        display: inline-block;
+    }
+
+    /*health department 02 page start*/
+    .border:after,
+    .border:before {
+        border: none;
+    }
+
+    .city_about_list.list2 {
+        margin-top: 0px;
+    }
+
+    .city_about_fig.fig2 {
+        margin-bottom: 0px;
+    }
+
+    .city_treatment_text h4 {
+        display: none;
+    }
+
+    .city_treatment_text .paly_btn {
+        margin-bottom: 8px;
+    }
+
+    .city_treatment_text {
+        margin-top: -15px;
+    }
+
+    .city_treatment_list a {
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .city_special2_text h3:nth-child(3) {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .city_health2_service.list {
+        padding: 0px 0px 35px 0px;
+    }
+
+    /*mayor page start*/
+    .city_mayor_text h2 {
+        font-size: 20px;
+    }
+
+    .city_mayor_contact .theam_btn,
+    .city_mayor_list li span {
+        display: none;
+    }
+
+    .city_mayor_row {
+        padding: 40px 20px;
+    }
+
+    .city_event_detail.question {
+        padding: 72px 20px 80px;
+    }
+
+    .city_event_detail.question>h3 {
+        font-size: 22px;
+    }
+
+    /*news page start*/
+    .city_news2_detail h3 {
+        font-size: 18px;
+    }
+
+    .city_news2_post.post2 .city_news2_detail h4 {
+        font-size: 16px;
+    }
+
+    /*project page start*/
+    .city_project_fig.fig2 .city_project_text h4 {
+        font-size: 20px;
+    }
+
+    .city_project_fig.fig2:hover .city_project_text {
+        margin-top: -80px;
+    }
+
+    /*project 02 page start*/
+    .city_project02_text span {
+        float: none;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .city_project02_text h5 {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+
+    .city_project02_text {
+        text-align: center;
+    }
+
+    /*project detail page start*/
+    .project_title {
+        font-size: 18px;
+    }
+
+    .city_project_detail {
+        padding: 0px 20px;
+    }
+
+    .city_local_link li a {
+        font-size: 12px;
+    }
+
+    .information_list li a {
+        font-size: 14px;
+    }
+
+    .city_project_wrap.detail .city_project_text h4 {
+        display: none;
+    }
+
+    .city_project_wrap.detail .city_project_text {
+        margin-top: -15px;
+    }
+
+    .city_health_department {
+        padding: 60px 0px;
+    }
+
+    .city_blog_wrap {
+        padding: 60px 0px 60px;
+    }
+
+    .bg_white {
+        /* padding: 83px 0px 30px; */
+        padding: 60px 0px 95px;
+    }
+
+    /*;ogin page start*/
+    .city_login {
+        padding: 45px 20px 50px;
+    }
+
+    .city_login h4 {
+        font-size: 16px;
+    }
+
+    .city_comment_form_login .city_commet_field label {
+        font-size: 15px;
+    }
+
+    .checkbox_radio {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .city_forget {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .city_checked {
+        text-align: center;
+    }
+
+    .city_comment_form_login .theam_btn {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {}

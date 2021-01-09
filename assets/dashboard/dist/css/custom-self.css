@@ -1,0 +1,336 @@
+table th {
+    text-align: center;
+}
+
+table td:nth-child(1),
+table td:nth-last-child(1) {
+    text-align: center;
+}
+
+table td {
+    vertical-align: middle !important;
+}
+
+.row-number {
+    width: 15px !important;
+}
+
+.row-aksi {
+    width: 100px !important;
+}
+
+.em-error {
+    color: #dc3545;
+    display: none;
+}
+
+.loading {
+    position: fixed;
+    z-index: 9999;
+    height: 2em;
+    width: 2em;
+    overflow: visible;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+    display: none;
+}
+
+@keyframes bounce {
+
+    0%,
+    75%,
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    25% {
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        -o-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+}
+
+/* Jumping dots loader */
+.jumping-dots-loader {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.jumping-dots-loader span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(255, 71, 71, 0.8);
+    margin: 35px 5px;
+}
+
+.jumping-dots-loader span:nth-child(1) {
+    animation: bounce 1s ease-in-out infinite;
+}
+
+.jumping-dots-loader span:nth-child(2) {
+    animation: bounce 1s ease-in-out 0.33s infinite;
+}
+
+.jumping-dots-loader span:nth-child(3) {
+    animation: bounce 1s ease-in-out 0.66s infinite;
+}
+
+.hide {
+    display: none;
+}
+
+.button-fixed {
+    padding: 10px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 16px;
+    right: 13px;
+    z-index: 999;
+
+    border-style: solid;
+    border-width: thin;
+    border-color: #c0c0c0;
+}
+
+
+/*
+	==================================
+		Sidebar Right Css
+	==================================
+*/
+
+.card-sidebar {
+    padding: 20px 20px;
+}
+
+.sidebar-right-content {
+    display: none;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    z-index: 999999;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+    position: absolute;
+}
+
+#btn-card {
+    width: 70%;
+    height: 50%;
+}
+
+
+
+/*
+	==================================
+		Konsultasi Chat Css
+	==================================
+*/
+
+
+
+.content-msg-induk {
+    /* display: block; */
+    background-color: white;
+    height: 85vh;
+}
+
+.content-chat {
+    display: block;
+    background-color: rgb(228, 228, 228);
+    height: 100%;
+    padding: 20px 0;
+    border-radius: 30px;
+}
+
+.content-msg {
+    height: 100%;
+}
+
+.timeline-auto {
+    padding-bottom: 400px;
+}
+
+.timeline-chat::before {
+    display: none;
+}
+
+.judul-chat {
+    display: block;
+    padding: 10px;
+    border-radius: 12px !important;
+    box-shadow: 5px 7px rgb(216, 216, 216);
+}
+
+.user-chat {
+    display: block;
+    padding: 7px;
+    border-radius: 12px;
+    box-shadow: 5px 7px rgb(216, 216, 216);
+}
+
+.firstchat {
+    display: block;
+    border-radius: 30px;
+    background-color: white;
+    /* padding: 5px 10px; */
+}
+
+.first-msg {
+    padding: 0rem 0.5rem;
+}
+
+.card-msg {
+    width: 80%;
+    /* height: 100px; */
+}
+
+/* .card-header-msg {
+    height: 40px;
+    font-size: 200px;
+} */
+
+/* #body_message {
+    height: 500px;
+    max-height: 1000px;
+} */
+
+.time-chat {
+    font-weight: 100;
+    font-size: 12px;
+    color: rgb(172, 172, 172);
+}
+
+.btn-user {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+
+
+.content-input-message {
+    background-color: white;
+    /* z-index: 0; */
+    /* text-align: center; */
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    width: 100%;
+    margin: 0px 0px;
+    margin-left: -15px;
+    padding-top: 10px;
+    padding-right: 25%;
+    padding-left: 5%;
+    padding-bottom: 20px;
+    bottom: -10px;
+}
+
+.input-group {
+    width: 100% !important;
+    margin-bottom: 0;
+}
+
+.input-group-modal {
+    width: 100% !important;
+    /* background-color: #c0c0c0; */
+    margin-bottom: 0;
+}
+
+.message-chat {
+    font-style: none;
+    /* height: 300px;
+    margin-bottom: 20px; */
+}
+
+#message {
+    width: 90%;
+}
+
+#kirim-chat {
+    float: right;
+    margin-top: -10px;
+}
+
+#kirim-chat-modal {
+    float: right;
+    margin-top: 5px;
+}
+
+#confir-message {
+    background-color: #efefef;
+}
+
+/* i {
+    font-style: normal;
+} */
+
+/* .note-btn-italic {
+    font-style: normal;
+} */
+
+.judul-chat {
+    display: block;
+    padding: 5px;
+    padding-left: 7px;
+    border-radius: 20px;
+}
+
+#body-message {
+    word-wrap: break-word;
+    white-space: normal;
+    /* height: 500px; */
+    /* background-color: blue; */
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background: none;
+}
+
+.nav-treeview {
+    padding-left: 10px !important;
+}
+
+.active-konsul, .active-konsul p, .active-konsul i {
+    background-color: #c0c0c0;
+    color: black;
+}
+
+.active-konsul-2, .active-konsul-2 p, .active-konsul-2 i {
+    background-color: #c0c0c0;
+    color: black;
+}
