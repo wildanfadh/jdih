@@ -146,9 +146,9 @@ class Konsultasi_model extends CI_Model
         $done = array('has_send' => SUDAH_DIBALAS, 'status' => KONFIRMASI_SELESAI);
 
         if ($to == "all") {
-            $_usr = $this->session->userdata("user_id");
+            $_usr = $this->session->userdata("group");
 
-            if ($_usr == 4) {
+            if ($_usr == PERM_SKPD) {
                 $where = "(
                     id_from = " . $this->session->userdata("user_id") . "
                 )";
@@ -179,12 +179,12 @@ class Konsultasi_model extends CI_Model
             $this->db->where('status', STATUS_MASUK);
         } elseif ($to == "proses-foropd") {
             $this->db->where('is_confirmed', BELUM_KONFIRMASI);
-        } else {
-            $usr_ = $this->session->userdata("user_id");
+            // } else {
+            //     $usr_ = $this->session->userdata("group");
 
-            if ($usr_ == 5) {
-                $this->db->where("id_to", 4);
-            }
+            //     if ($usr_ == PERM_KABAG) {
+            //         $this->db->where("id_to_group", PERM_SKPD);
+            //     }
         }
 
         // if ($deleted != "all") {
@@ -216,15 +216,15 @@ class Konsultasi_model extends CI_Model
         $done = array('has_send' => SUDAH_DIBALAS, 'status' => KONFIRMASI_SELESAI);
 
         if ($to == "all") {
-            $_usr = $this->session->userdata("user_id");
+            $_usr = $this->session->userdata("group");
 
-            if ($_usr == 4) {
+            if ($_usr == PERM_SKPD) {
                 $where = "(
                     id_from = " . $this->session->userdata("user_id") . "
                 )";
             } else {
                 $where = "(
-                    id_from = 4
+                    id_from = 4 
                 )";
             }
 
@@ -249,12 +249,12 @@ class Konsultasi_model extends CI_Model
             $this->db->where('status', STATUS_MASUK);
         } elseif ($to == "proses-foropd") {
             $this->db->where('is_confirmed', BELUM_KONFIRMASI);
-        } else {
-            $usr_ = $this->session->userdata("user_id");
+            // } else {
+            // $usr_ = $this->session->userdata("user_id");
 
-            if ($usr_ == 5) {
-                $this->db->where("id_to", 4);
-            }
+            // if ($usr_ == 5) {
+            //     $this->db->where("id_to", 4);
+            // }
         }
 
         // if ($deleted != "all") {
@@ -290,9 +290,9 @@ class Konsultasi_model extends CI_Model
         $done = array('has_send' => SUDAH_DIBALAS, 'status' => KONFIRMASI_SELESAI);
 
         if ($to == "all") {
-            $_usr = $this->session->userdata("user_id");
+            $_usr = $this->session->userdata("group");
 
-            if ($_usr == 4) {
+            if ($_usr == PERM_SKPD) {
                 $where = "(
                     id_from = " . $this->session->userdata("user_id") . "
                 )";
@@ -323,12 +323,12 @@ class Konsultasi_model extends CI_Model
             $this->db->where('status', STATUS_MASUK);
         } elseif ($to == "proses-foropd") {
             $this->db->where('is_confirmed', BELUM_KONFIRMASI);
-        } else {
-            $usr_ = $this->session->userdata("user_id");
+            // } else {
+            //     $usr_ = $this->session->userdata("user_id");
 
-            if ($usr_ == 5) {
-                $this->db->where("id_to", 4);
-            }
+            //     if ($usr_ == 5) {
+            //         $this->db->where("id_to", 4);
+            //     }
         }
 
         // if ($deleted != "all") {
