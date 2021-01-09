@@ -430,13 +430,15 @@ class Konsultasi extends WH_Controller
                     "to_read" => $toRead,
                     "has_send" => true,
                     "status" => STATUS_MASUK,
+                    "is_confirmed" => BELUM_KONFIRMASI,
                 );
-            } else {
+            } elseif ($saveChild["is_confirmed"] == BELUM_KONFIRMASI) {
                 $save = array(
                     // "status" => $kon + 1,
                     "to_read" => $toRead,
                     "has_send" => true,
                     "status" => STATUS_MASUK,
+                    "is_confirmed" => BELUM_KONFIRMASI,
                 );
             }
 
@@ -569,6 +571,7 @@ class Konsultasi extends WH_Controller
                 // "status" => $kon - 1,
                 "from_read" => false,
                 "status" => STATUS_DIKONFIRMASI,
+                "is_confirmed" => KONFIRMASI_SELESAI,
             );
         } elseif ($save["status"] == STATUS_DIBATALKAN) {
             $savekon = array(
