@@ -44,17 +44,8 @@
                             </td>
                         </tr>
 
-                        <!--                  
-                        <tr>
-                            <td> <button type="button" class='btn btn-danger btn-xs'> <i class='fas fa-trash'></i></button> </td>
-                            <td>
-                                <p>Tombol Hapus</p>
-                            </td>
-                            <td>
-                                <p>Berfungsi untuk Menghapus data Penyusunan</p>
-                            </td>
-                        </tr> -->
-                        <?php if ($group == PERM_ADM) { ?>
+
+                        <!-- <?php if ($group == PERM_ADM) { ?>
                             <tr>
                                 <td> <button type="button" class='btn btn-warning btn-xs'> <i class='fas fa-check' data-toggle='tooltip' data-placement='top' title='Konultasi Berakhir'></i></button> </td>
                                 <td>
@@ -64,18 +55,19 @@
                                     <p>Berfungsi untuk Mengakhiri Percakapan Konsultasi</p>
                                 </td>
                             </tr>
+                        <?php } ?> -->
+
+                        <?php if ($group == PERM_SKPD) { ?>
+                            <tr>
+                                <td> <button type="button" class='btn btn-danger btn-xs'> <i class='far fa-trash-alt' data-toggle='tooltip' data-placement='top' title='Hapus Konsultasi'></i></button> </td>
+                                <td>
+                                    <p>Tombol Hapus</p>
+                                </td>
+                                <td>
+                                    <p>Berfungsi untuk menghapus Konsultasi yang masih dalam status Belum Tersedia</p>
+                                </td>
+                            </tr>
                         <?php } ?>
-
-                        <tr>
-                            <td> <button type="button" class='btn btn-success btn-xs'> <i class='fas fa-check' data-toggle='tooltip' data-placement='top' title='Konsultasi Berakhir'></i></button> </td>
-                            <td>
-                                <p>Tombol Check Hijau</p>
-                            </td>
-                            <td>
-                                <p>Berfungsi sebagai tanda bahwa Percakapan Konsultasi telah Selesai</p>
-                            </td>
-                        </tr>
-
 
                     </tbody>
                 </table>
